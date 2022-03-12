@@ -27,8 +27,6 @@ class m220312_183655_create_table_usuarios extends Migration
     public function safeDown()
     {
         $this->dropTable('users');
-
-        return true;
     }
 
     /*
