@@ -8,10 +8,10 @@ use yii\helpers\ArrayHelper;
 /**
  * Default controller for the `apiv1` module
  */
-class UserController extends ActiveController
+class PermissionController extends ActiveController
 {
     // Para personalizar respuesta
-    public $modelClass = 'app\modules\apiv1\models\Users';
+    public $modelClass = 'app\modules\apiv1\models\Permission';
     // public $modelClass = 'app\models\Users';
 
     public function actions()

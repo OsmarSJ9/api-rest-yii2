@@ -10,7 +10,7 @@ class Users extends \app\models\Users
     public function fields()
     {
         return [
-            'id','username','age'
+            'id','username','age', 'permissions'
         ];
     }
     public function extraFields()
